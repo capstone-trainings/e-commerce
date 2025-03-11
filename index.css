@@ -1,10 +1,14 @@
 /* css for header */
-header h2 {
-
+header h1 {
+text-align: center;
+background-color: #f4f4f4;
+font-family: Arial, Helvetica, sans-serif;
 }
 
-header p {
-
+header h3 {
+background-color: aliceblue;
+font-size: 36px;
+transition: color .5s;
 }
 /* .\end */
 
