@@ -9,9 +9,34 @@ header p {
 /* .\end */
 
 /* css for main */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    background-color: green;
+}
+
+main p {
+    text-decoration: wavy;
+    color: aquamarine;
+    border: 2px solid blue;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 0;
+}
+
 main img {
+    border-image: fill;
+    border: 2px solid rgb(191, 239, 1);
+    max-width: 100%;
+    outline: 2px solid gray;
+    border-radius: 20px;
 
 }
+
 /* .\end */
 
 /* css for footer */
